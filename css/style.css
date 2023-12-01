@@ -1,0 +1,99 @@
+/* SERIF --------------- 'Merriweather'   */
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/* SANS SERIF ---------- 'Open Sans'      */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* DISPLAY ------------- 'Croissant One'  */
+@import url('https://fonts.googleapis.com/css?family=Croissant+One');
+/* HANDWRITING --------- 'Coming Soon'    */
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+/* MONOSPACE ----------- 'Overpass Mono'  */
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+
+/* #DBF4C8 - Tea Green */
+/* #d6e3da - licht groen*/
+/* #c7d9cc - tint donkerder groen */
+/* #99BAA2 - even darker green */
+
+/* ========================== */
+/* -------- ALGEMEEN -------- */
+/* ========================== */
+
+* {
+    /* max-width: 100%; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Merriweather',
+        'Open Sans';
+}
+
+h1 {
+    font-family: 'Croissant One';
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #d6e3da;
+    border-radius: 20px;
+    border-color: #99BAA2;
+    border-width: medium;
+    border-style: solid;
+
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+/* ========================== */
+/* -------- HOMEPAGE -------- */
+/* ========================== */
+
+.index {
+    background-image: url("../img/homepagePic2-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.welcomeText {
+    display: flex;
+    color: white;
+    width: cover;
+    /* height: 68%; */
+    background-color: rgba(64, 64, 64, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========================== */
+/* --------- HEADER --------- */
+/* ========================== */
+
+.grid-con {
+    display: grid;
+    grid-template-rows: auto;
+
+    background-color: #d6e3da;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+    background-color: blanchedalmond;
+}
+
+.logo {
+    height: 100px;
+}
